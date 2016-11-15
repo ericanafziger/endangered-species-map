@@ -11,6 +11,7 @@
   position: absolute;
   top: 230px;
   left: 1230px;
+  z-index: 1;
 }
 .pin1text {
   display: none;
@@ -82,6 +83,7 @@
   position: absolute;
   top: 140px;
   left: 1015px;
+  z-index: 2
 }
 .pin5text {
   display: none;
@@ -100,6 +102,7 @@
   position: absolute;
   top: 795px;
   left: 1760px;
+
 }
 .pin6text {
   display: none;
@@ -108,8 +111,79 @@
   padding: 10px;
   top: -50px;
   left: -225px;
-
 }
 .pin6:hover > .pin6text {
+  display: block;
+}
+
+.pin7 {
+  position: absolute;
+  top: 495px;
+  left: 960px;
+}
+.pin7text {
+  display: none;
+  position: relative;
+  background: rgba(215, 215, 215, 0.7);
+  padding: 10px;
+  top: -50px;
+  left: 50px;
+
+}
+.pin7:hover > .pin7text {
+  display: block;
+}
+
+.pin8 {
+  position: absolute;
+  top: 245px;
+  left: 1440px;
+}
+.pin8text {
+  display: none;
+  position: relative;
+  background: rgba(215, 215, 215, 0.7);
+  padding: 10px;
+  top: -50px;
+  left: 50px;
+
+}
+.pin8:hover > .pin8text {
+  display: block;
+}
+
+.pin9 {
+  position: absolute;
+  top: 225px;
+  left: 1340px;
+}
+.pin9text {
+  display: none;
+  position: relative;
+  background: rgba(215, 215, 215, 0.7);
+  padding: 10px;
+  top: -50px;
+  left: 50px;
+
+}
+.pin9:hover > .pin9text {
+  display: block;
+}
+
+.pin10 {
+  position: absolute;
+  top: 205px;
+  left: 140px;
+}
+.pin10text {
+  display: none;
+  position: relative;
+  background: rgba(215, 215, 215, 0.7);
+  padding: 10px;
+  top: -50px;
+  left: 50px;
+
+}
+.pin10:hover > .pin10text {
   display: block;
 }
