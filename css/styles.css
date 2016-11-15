@@ -41,3 +41,75 @@
 .pin2:hover > .pin2text {
   display: block;
 }
+
+.pin3 {
+  position: absolute;
+  top: 300px;
+  left: 170px;
+}
+.pin3text {
+  display: none;
+  position: relative;
+  background: rgba(215, 215, 215, 0.7);
+  padding: 10px;
+  top: -50px;
+  left: 50px;
+
+}
+.pin3:hover > .pin3text {
+  display: block;
+}
+
+.pin4 {
+  position: absolute;
+  top: 600px;
+  left: 1115px;
+}
+.pin4text {
+  display: none;
+  position: relative;
+  background: rgba(215, 215, 215, 0.7);
+  padding: 10px;
+  top: -50px;
+  left: 50px;
+
+}
+.pin4:hover > .pin4text {
+  display: block;
+}
+
+.pin5 {
+  position: absolute;
+  top: 140px;
+  left: 1015px;
+}
+.pin5text {
+  display: none;
+  position: relative;
+  background: rgba(215, 215, 215, 0.7);
+  padding: 10px;
+  top: -50px;
+  left: 50px;
+
+}
+.pin5:hover > .pin5text {
+  display: block;
+}
+
+.pin6 {
+  position: absolute;
+  top: 795px;
+  left: 1760px;
+}
+.pin6text {
+  display: none;
+  position: relative;
+  background: rgba(215, 215, 215, 0.7);
+  padding: 10px;
+  top: -50px;
+  left: -225px;
+
+}
+.pin6:hover > .pin6text {
+  display: block;
+}
