@@ -3,14 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.masthead {
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(18, 57, 13);
+}
+h1 {
+  font-family: 'Patua One', cursive;
+  font-size: 4em;
+}
 .map {
  position: absolute;
+}
+.map img {
+  max-width: 100%;
 }
 
 .pin1 {
   position: absolute;
-  top: 230px;
-  left: 1230px;
+  top: 22%;
+  left: 60%;
   z-index: 1;
 }
 .pin1text {
@@ -27,8 +41,8 @@
 }
 .pin2 {
   position: absolute;
-  top: 500px;
-  left: 490px;
+  top: 52%;
+  left: 27%;
 }
 .pin2text {
   display: none;
