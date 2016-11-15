@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.map {
+ position: absolute;
+}
+
+.pin1 {
+  position: absolute;
+  top: 230px;
+  left: 1230px;
+}
+.pin1text {
+  display: none;
+  position: relative;
+  background: rgba(215, 215, 215, 0.7);
+  padding: 10px;
+  top: -50px;
+  left: 50px;
+
+}
+.pin1:hover > .pin1text {
+  display: block;
+}
+.pin2 {
+  position: absolute;
+  top: 500px;
+  left: 490px;
+}
+.pin2text {
+  display: none;
+  position: relative;
+  background: rgba(215, 215, 215, 0.7);
+  padding: 10px;
+  top: -50px;
+  left: 50px;
+
+}
+.pin2:hover > .pin2text {
+  display: block;
+}
